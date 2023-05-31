@@ -1,0 +1,16 @@
+.bg-color {
+    background: linear-gradient(-45deg, #1e1546, #ee7752, #23a6d5, #023858);
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }

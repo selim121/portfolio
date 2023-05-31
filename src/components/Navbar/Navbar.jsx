@@ -48,8 +48,8 @@ const Navbar = () => {
 
             <div data-aos="fade-right"
                 data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="lg:fixed lg:w-[350px] ">
-                <div className="border card lg:h-screen lg:ms-3">
+                data-aos-easing="ease-in-sine" className="lg:fixed lg:w-[350px] bg-[#1e1546]">
+                <div className="card lg:h-screen lg:ms-3">
                     <div className="flex flex-col items-center lg:my-auto">
                         <div>
                             <div className="text-white mt-5">
