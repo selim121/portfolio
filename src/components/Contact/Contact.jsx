@@ -12,17 +12,17 @@ const Contact = () => {
             <p className="text-base-200 opacity-80">Feel free to contact me by submitting the form below and I will get back to you as soon as possible</p>
             <div data-aos="fade-up"
      data-aos-duration="2000" className="my-12 flex justify-center">
-                <div className="border p-12 lg:w-2/3 bg-[#c1e6d7] shadow-2xl">
+                <form className="border p-12 lg:w-2/3 bg-[#c1e6d7] shadow-2xl" action="https://formsubmit.co/selimhossain.sh1@gmail.com" method="POST">
                     <p className="text-start text-xl mb-2">Name</p>
-                    <input className="bg-base-200 w-full px-5 py-3 rounded-md input input-bordered input-success" type="text" placeholder="Enter Your Name" name="" id="" />
+                    <input className="bg-base-200 w-full px-5 py-3 rounded-md input input-bordered input-success" type="text" placeholder="Enter Your Name" name="name" id="" />
                     <p className="text-start text-xl mb-2 mt-8">Email</p>
-                    <input className="bg-base-200 w-full px-5 py-3 rounded-md input input-bordered input-success" type="email" placeholder="Enter Your Email" name="" id="" />
+                    <input className="bg-base-200 w-full px-5 py-3 rounded-md input input-bordered input-success" type="email" placeholder="Enter Your Email" name="email" id="" />
                     <p className="text-start text-xl mb-2 mt-8">Message</p>
-                    <textarea className="textarea textarea-success w-full" placeholder="Enter Your Message"></textarea>
+                    <textarea className="textarea textarea-success w-full" placeholder="Enter Your Message" name="message"></textarea>
                     <div className="mt-12 flex lg:justify-end justify-center">
                         <button className="uppercase px-12 py-3 hover:bg-[#84FFBB] bg-[#54FFBB] rounded-lg">Submit</button>
                     </div>
-                </div>
+                </form>
             </div>
             <p className="text-white text-sm py-5"><span>&copy; {currentYear} Selim. All Right Reserved</span></p>
         </div>
