@@ -93,7 +93,7 @@ const Navbar = () => {
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillTwitterSquare /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><BiWorld /></a>
                         </div>
-                        <p className="text-gray-400 text-sm py-5 d-none lg:block"><p>&copy; {currentYear} Selim. All Right Reserved</p></p>
+                        <p className="text-gray-400 text-sm py-5 d-none lg:block"><span>&copy; {currentYear} Selim. All Right Reserved</span></p>
                     </div>
                 </div>
             </div>

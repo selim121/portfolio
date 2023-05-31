@@ -24,7 +24,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <p className="text-white text-sm py-5"><p>&copy; {currentYear} Selim. All Right Reserved</p></p>
+            <p className="text-white text-sm py-5"><span>&copy; {currentYear} Selim. All Right Reserved</span></p>
         </div>
     );
 };
