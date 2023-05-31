@@ -1,0 +1,10 @@
+.bg-circle {
+    background-image: url('../../assets/c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+  }
+  
