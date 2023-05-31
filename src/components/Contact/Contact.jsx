@@ -1,5 +1,9 @@
 
 const Contact = () => {
+    const getCurrentYear = () => {
+        return new Date().getFullYear();
+    };
+    const currentYear = getCurrentYear();
     return (
         <div id="contact">
             <div className="border-t-4 border-b-4 md:w-1/3 w-1/2 py-3 mx-auto mb-5">
@@ -20,6 +24,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <p className="text-white text-sm py-5"><p>&copy; {currentYear} Selim. All Right Reserved</p></p>
         </div>
     );
 };
