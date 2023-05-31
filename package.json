@@ -14,6 +14,7 @@
     "daisyui": "^2.52.0",
     "framer-motion": "^10.12.16",
     "react": "^18.2.0",
+    "react-animated-progress-bar": "^1.1.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-parallax": "^3.5.1",

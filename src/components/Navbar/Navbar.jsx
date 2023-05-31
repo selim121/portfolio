@@ -78,14 +78,18 @@ const Navbar = () => {
                         </div>
                         <h2 className='text-xl text-white'>Dhaka, Bangladesh</h2>
                         <h3 className='text-white'>selimhossain.sh1@gmail.com</h3>
-                        <p className="text-gray-400 text-sm py-5"><p>&copy; {currentYear} Selim. All Right Reserved</p></p>
-                        <div className="flex gap-4 p-link">
+
+                        <button className='hire-btn my-5 py-3 rounded-3xl uppercase hover:text-[#54FFBB] hover:bg-inherit border border-[#54FFBB]'>Hire me!</button>
+                    </div>
+
+                    <div className="text-center">
+                        <div className="flex gap-4 p-link justify-center">
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillGithub /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillLinkedin /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillTwitterSquare /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><BiWorld /></a>
                         </div>
-                        <button className='hire-btn my-5 py-3 rounded-3xl uppercase hover:text-[#54FFBB] hover:bg-inherit hover:border border-[#54FFBB]'>Hire me!</button>
+                        <p className="text-gray-400 text-sm py-5"><p>&copy; {currentYear} Selim. All Right Reserved</p></p>
                     </div>
                 </div>
             </div>
