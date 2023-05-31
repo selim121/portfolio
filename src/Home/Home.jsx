@@ -1,4 +1,5 @@
 import AboutMe from "../components/AboutMe/AboutMe";
+import Contact from "../components/Contact/Contact";
 import Header from "../components/Header/Header";
 import Projects from "../components/Projects/Projects";
 // import img from '../assets/bg-body.svg';
@@ -10,6 +11,7 @@ const Home = () => {
                 <Header></Header>
                 <AboutMe></AboutMe>
                 <Projects></Projects>
+                <Contact></Contact>
             </div>
         </div>
     );

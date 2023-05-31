@@ -9,7 +9,7 @@ const Projects = () => {
                 <span className="text-2xl uppercase bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text">Projects</span>
             </div>
 
-            <div className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546] border-2 border-[#3a2888]">
+            <div data-aos="fade-right" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546] border-2 border-[#3a2888]">
                 <div className="hover:text-white">
                     <img className='rounded-xl h-full' src={toyImg} alt="" />
                 </div>
@@ -57,7 +57,7 @@ const Projects = () => {
                 <button className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
             </div>
 
-            <div className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546] border-2 border-[#3a2888]">
+            <div data-aos="fade-left" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546] border-2 border-[#3a2888]">
                 <div className="">
                     <img className='rounded-xl w-full h-full' src={zestfulImg} alt="" />
                 </div>
