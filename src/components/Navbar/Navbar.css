@@ -19,3 +19,12 @@ a:hover {
     background-color: rgb(84, 255, 187);
     width: 100%;
 }
+
+.p-link a{
+    color: #FFFFFF !important;
+}
+
+.p-link a:hover {
+    background-color: #54FFBB;
+    color: #000000 !important;
+}

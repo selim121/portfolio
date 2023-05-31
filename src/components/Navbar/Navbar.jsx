@@ -79,7 +79,7 @@ const Navbar = () => {
                         <h2 className='text-xl text-white'>Dhaka, Bangladesh</h2>
                         <h3 className='text-white'>selimhossain.sh1@gmail.com</h3>
                         <p className="text-gray-400 text-sm py-5"><p>&copy; {currentYear} Selim. All Right Reserved</p></p>
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 p-link">
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillGithub /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillLinkedin /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillTwitterSquare /></a>
