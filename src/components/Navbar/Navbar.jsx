@@ -13,6 +13,10 @@ const Navbar = () => {
     };
     const currentYear = getCurrentYear();
 
+    const handleHire = () => {
+        window.location.href = '#contact';
+    }
+
     return (
         <nav>
             <div className='bg-[#54FFBB] inline-flex gap-8 px-24 py-5 z-2 fixed left-1/2 transform -translate-x-1/2 bottom-8 rounded-full shadow-lg lg:top-2 lg:bottom-auto lg:left-2/3'>
@@ -71,7 +75,7 @@ const Navbar = () => {
                         <h2 className='text-xl text-white'>Dhaka, Bangladesh</h2>
                         <h3 className='text-white'>selimhossain.sh1@gmail.com</h3>
 
-                        <button className='hire-btn my-5 py-3 rounded-3xl uppercase hover:text-[#54FFBB] hover:bg-inherit border border-[#54FFBB]'>Hire me!</button>
+                        <button onClick={handleHire} className='hire-btn my-5 py-3 rounded-3xl uppercase hover:text-[#54FFBB] hover:bg-inherit border border-[#54FFBB]'>Hire me!</button>
 
                         <div className="border-t-4 border-b-4 md:w-1/3 w-1/2 py-1 mx-auto mt-2 text-center">
                             <span className="text-xl uppercase bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text">Academic</span>
@@ -88,10 +92,10 @@ const Navbar = () => {
                     </div>
                     <div className="text-center">
                         <div className="flex gap-4 p-link justify-center">
-                            <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillGithub /></a>
-                            <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillLinkedin /></a>
-                            <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><AiFillTwitterSquare /></a>
-                            <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="#"><BiWorld /></a>
+                            <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://github.com/selim121" target='blank'><AiFillGithub /></a>
+                            <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://www.linkedin.com/in/selimhossain-sh1/#" target='blank'><AiFillLinkedin /></a>
+                            <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://twitter.com/selim_hossain1" target='blank'><AiFillTwitterSquare /></a>
+                            <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://selim802.blogspot.com/" target='blank'><BiWorld /></a>
                         </div>
                         <p className="text-gray-400 text-sm py-5 d-none lg:block"><span>&copy; {currentYear} Selim. All Right Reserved</span></p>
                     </div>

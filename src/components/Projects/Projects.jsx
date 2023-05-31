@@ -3,6 +3,20 @@ import zestfulImg from '../../assets/zestful.png';
 import { FcApproval } from "react-icons/fc";
 
 const Projects = () => {
+
+    const handleToyLive = () => {
+        window.location.href = 'https://toycratex.web.app';
+    }
+    const handleToyGitHub = () => {
+        window.location.href = 'https://github.com/selim121/ToyCrateX';
+    }
+    const handleZestfulLive = () => {
+        window.location.href = 'https://zestful-d961f.web.app';
+    }
+    const handleZestfulGitHub = () => {
+        window.location.href = 'https://github.com/selim121/Zestful';
+    }
+
     return (
         <div id='projects'>
             <div className="border-t-4 border-b-4 w-1/2 md:w-1/3 py-3 mx-auto mb-12">
@@ -53,8 +67,8 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-center gap-5 mt-8 mb-24">
-                <button className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Live Preview</button>
-                <button className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
+                <button onClick={handleToyLive} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Live Preview</button>
+                <button onClick={handleToyGitHub} className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
             </div>
 
             <div data-aos="fade-left" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546] border-2 border-[#3a2888]">
@@ -97,8 +111,8 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-center gap-5 mt-8 mb-24">
-                <button className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Live Preview</button>
-                <button className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
+                <button onClick={handleZestfulLive} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Live Preview</button>
+                <button onClick={handleZestfulGitHub} className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
             </div>
 
         </div>
