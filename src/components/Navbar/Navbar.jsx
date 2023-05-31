@@ -32,9 +32,9 @@ const Navbar = () => {
                     <AiOutlineUser />
                 </a>
                 <a
-                    href='#experiences'
-                    onClick={() => setActive('#experiences')}
-                    className={active === '#experiences' ? 'active icon-color' : ''}
+                    href='#projects'
+                    onClick={() => setActive('#projects')}
+                    className={active === '#projects' ? 'active icon-color' : ''}
                 >
                     <BiBook />
                 </a>
