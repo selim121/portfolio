@@ -5,8 +5,8 @@ import Projects from "../components/Projects/Projects";
 
 const Home = () => {
     return (
-        <div className="flex justify-end md:me-5 bg-[#1e1546]" >
-            <div className="xl:w-3/4 md:w-2/3 text-center px-5">
+        <div className="flex justify-center lg:justify-end bg-[#1e1546]" >
+            <div className=" lg:w-2/3 text-center">
                 <Header></Header>
                 <AboutMe></AboutMe>
                 <Projects></Projects>

@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare, AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
-import { BiBook, BiMessageSquareDetail, BiWorld } from 'react-icons/bi'
-import { RiServiceLine } from 'react-icons/ri';
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare, AiOutlineHome, AiOutlineProject, AiOutlineUser } from 'react-icons/ai'
+import { BiMessageSquareDetail, BiWorld } from 'react-icons/bi'
 import './Navbar.css';
 import Typed from 'react-typed';
 import avatar from '../../../src/assets/avatar.jpeg';
@@ -16,7 +15,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className='bg-[#54FFBB] inline-flex gap-8 px-24 py-5 z-2 fixed left-1/2 transform -translate-x-1/2 bottom-8 rounded-full shadow-lg md:top-2 md:bottom-auto md:left-2/3'>
+            <div className='bg-[#54FFBB] inline-flex gap-8 px-24 py-5 z-2 fixed left-1/2 transform -translate-x-1/2 bottom-8 rounded-full shadow-lg lg:top-2 lg:bottom-auto lg:left-2/3'>
                 <a
                     className={active === '#' ? 'active icon-color' : ''}
                     href='#'
@@ -36,14 +35,7 @@ const Navbar = () => {
                     onClick={() => setActive('#projects')}
                     className={active === '#projects' ? 'active icon-color' : ''}
                 >
-                    <BiBook />
-                </a>
-                <a
-                    href='#services'
-                    onClick={() => setActive('#services')}
-                    className={active === '#services' ? 'active icon-color' : ''}
-                >
-                    <RiServiceLine />
+                    <AiOutlineProject />
                 </a>
                 <a
                     href='#contact'
@@ -56,9 +48,9 @@ const Navbar = () => {
 
             <div data-aos="fade-right"
                 data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="md:fixed md:w-1/3 xl:w-1/4">
-                <div className="border card md:h-screen md:ms-3 md:bg-base-200 md:bg-opacity-10 bg-indigo-950 ">
-                    <div className="flex flex-col items-center md:my-auto">
+                data-aos-easing="ease-in-sine" className="lg:fixed lg:w-[350px] ">
+                <div className="border card lg:h-screen lg:ms-3 lg:bg-base-200 lg:bg-opacity-10 bg-indigo-950 ">
+                    <div className="flex flex-col items-center lg:my-auto">
                         <div>
                             <div className="text-white mt-5">
                                 <Typed

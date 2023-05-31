@@ -4,13 +4,13 @@ const AboutMe = () => {
 
     return (
         <div id="about" className="py-24">
-            <div className="text-center">
-                <div className="border-t-4 border-b-4 w-1/3 py-3 mx-auto mb-5">
+            <div className="text-center px-5">
+                <div className="border-t-4 border-b-4 md:w-1/3 w-1/2 py-3 mx-auto mb-5">
                     <span className="text-2xl uppercase bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text">About me</span>
                 </div>
                 <p className="text-base-200 opacity-80">Here you will find information about me, what i do, and my current skills mostly in terms of programming and technology</p>
             </div>
-            <div className="text-white text-start mt-5">
+            <div className="text-white text-start mt-5 px-5">
                 <h3 className="text-xl font-bold mb-2">Explore My Profile!</h3>
                 <p className="opacity-80 text-justify leading-relaxed">
                     As a Frontend Web Developer, I specialize in crafting engaging user interfaces and front-end components for Websites and Web Applications, driving their overall success. Take a look at my portfolio in the Projects section to see some of my work. <br /> <br />
@@ -19,7 +19,7 @@ const AboutMe = () => {
                 </p>
             </div>
 
-            <h3 className="text-xl text-white text-start font-bold mb-2 mt-12">Explore My Skills!</h3>
+            <h3 className="text-xl text-white text-start font-bold mb-2 mt-12 px-5">Explore My Skills!</h3>
 
             <div data-aos="fade-up"
      data-aos-anchor-placement="top-bottom">
