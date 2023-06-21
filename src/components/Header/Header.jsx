@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     const handleResume = () => {
-        window.location.href = 'https://drive.google.com/file/d/1Tt4JUFQFL-RcoV57Byx8cndx7aXYWuPD/view?usp=sharing';
+        window.location.href = 'https://drive.google.com/file/d/1FzNcitnHf-70fDH4ZJVfgwXb738NFOP2/view?usp=sharing';
     }
 
     const handleProject = () => {

@@ -90,14 +90,14 @@ const Navbar = () => {
                         <p className="text-white mt-4">Complete Web Development Course</p>
                         <p className="text-white font-light text-sm pb-3">Programming Hero</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center py-5">
                         <div className="flex gap-4 p-link justify-center">
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://github.com/selim121" target='blank'><AiFillGithub /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://www.linkedin.com/in/selimhossain-sh1/#" target='blank'><AiFillLinkedin /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://twitter.com/selim_hossain1" target='blank'><AiFillTwitterSquare /></a>
                             <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://selim802.blogspot.com/" target='blank'><BiWorld /></a>
                         </div>
-                        <p className="text-gray-400 text-sm py-5 d-none lg:block"><span>&copy; {currentYear} Selim. All Right Reserved</span></p>
+                        <p className="text-gray-400 text-sm pt-5 d-none lg:block"><span>&copy; {currentYear} Selim. All Right Reserved</span></p>
                     </div>
                 </div>
             </div>
