@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className='bg-[#54FFBB] inline-flex gap-8 px-24 py-5 z-2 fixed left-1/2 transform -translate-x-1/2 bottom-8 rounded-full shadow-lg lg:top-2 lg:bottom-auto lg:left-2/3'>
+            <div className='bg-[#1e1546] inline-flex gap-8 px-16 py-5 z-20 fixed left-1/2 transform -translate-x-1/2 bottom-8 rounded-full shadow-lg lg:bottom-5 lg:left-2/3 space-x-10'>
                 <a
                     className={active === '#' ? 'active icon-color' : ''}
                     href='#'
@@ -53,8 +53,8 @@ const Navbar = () => {
             <div data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine" className="lg:fixed lg:w-[350px] bg-[#1e1546]">
-                <div className="card lg:h-screen lg:ms-3">
-                    <div className="flex flex-col items-center lg:my-auto">
+                <div className="card lg:h-screen ">
+                    <div className="flex flex-col items-center">
                         <div>
                             <div className="text-white mt-5">
                                 <Typed
@@ -70,7 +70,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="p-4">
-                            <img className='h-full rounded-3xl' src={avatar} alt="" />
+                            <img className='h-52 rounded-3xl' src={avatar} alt="" />
                         </div>
                         <h2 className='text-xl text-white'>Dhaka, Bangladesh</h2>
                         <h3 className='text-white'>selimhossain.sh1@gmail.com</h3>
@@ -82,7 +82,7 @@ const Navbar = () => {
                         </div>
                         <p className="text-white mt-4">B.Sc. in Computer Science & Engineering</p>
                         <p className="text-white font-light text-sm">City University of Bangladesh</p>
-                        <p className="text-white font-light text-sm">( 2018 - 2022 )</p>
+                        <p className="text-white font-light text-sm">( 04/2018 - 10/2022 )</p>
 
                         <div className="border-t-4 border-b-4 md:w-1/3 w-1/2 py-1 mx-auto text-center mt-4">
                             <span className="text-xl uppercase bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text">Training</span>
