@@ -3,15 +3,21 @@ import { SiExpress, SiMongodb } from 'react-icons/si';
 import './Header.css';
 
 const Header = () => {
-    const handleResume = () => {
-        window.location.href = 'https://drive.google.com/file/d/1FzNcitnHf-70fDH4ZJVfgwXb738NFOP2/view?usp=sharing';
-    }
-
+    
     const handleProject = () => {
         window.location.href = '#projects';
     }
+
+    const handleDownload = () => {
+        const url = '/public/resume.pdf';
+        const anchor = document.createElement('a');
+        anchor.href = url;
+        anchor.download = 'resume.pdf';
+        anchor.click();
+    }
+
     return (
-        <div className="md:h-[100vh] pt-28">
+        <div className="md:overflow-y-auto md:max-h-screen pt-28">
             <div className="px-5" data-aos="fade-down" data-aos-duration="2000">
                 <h1 className="text-white text-5xl uppercase">Hey, I&apos;m <br /><span className='bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text'>Md Selim Hossain</span></h1>
                 <p className="text-white py-4">
@@ -58,7 +64,7 @@ const Header = () => {
 
             <div data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom" data-aos-duration="2000" className="flex justify-center gap-5 pt-20">
-                <button onClick={handleResume} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Download CV</button>
+                <button onClick={handleDownload} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Download CV</button>
                 <button onClick={handleProject} className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">Projects</button>
             </div>
         </div>

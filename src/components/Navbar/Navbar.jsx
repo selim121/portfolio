@@ -49,7 +49,7 @@ const Navbar = () => {
 
             <div data-aos="fade-right"
                 data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="lg:fixed lg:w-[350px] bg-[#1e1546]">
+                data-aos-easing="ease-in-sine" className="lg:fixed lg:w-[350px] bg-[#1e1546] overflow-y-auto max-h-screen">
                 <div className="card lg:h-full">
                     <div className="flex flex-col items-center">
                         <div>
