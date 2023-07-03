@@ -1,11 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
-import { BiWorld } from 'react-icons/bi';
-
 const Contact = () => {
-    const getCurrentYear = () => {
-        return new Date().getFullYear();
-    };
-    const currentYear = getCurrentYear();
     return (
         <div id="contact">
             <div className="border-t-4 border-b-4 md:w-1/3 w-1/2 py-3 mx-auto mb-5">
@@ -25,17 +18,6 @@ const Contact = () => {
                         <button className="uppercase px-12 py-3 hover:bg-[#84FFBB] bg-[#54FFBB] rounded-lg">Submit</button>
                     </div>
                 </form>
-            </div>
-            <div className="mb-24">
-                <div className="flex gap-4 p-link justify-center">
-                    <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://github.com/selim121" target='blank'><AiFillGithub /></a>
-                    <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://www.linkedin.com/in/selimhossain-sh1/#" target='blank'><AiFillLinkedin /></a>
-                    <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://twitter.com/selim_hossain1" target='blank'><AiFillTwitterSquare /></a>
-                    <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://selim802.blogspot.com/" target='blank'><BiWorld /></a>
-                </div>
-                <div>
-                    <p className="text-gray-400 text-sm pt-5 d-none lg:block"><span>&copy; {currentYear} Selim. All Right Reserved</span></p>
-                </div>
             </div>
         </div>
     );

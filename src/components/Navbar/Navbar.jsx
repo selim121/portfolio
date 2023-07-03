@@ -4,15 +4,22 @@ import { BiMessageSquareDetail } from 'react-icons/bi';
 import './Navbar.css';
 import Typed from 'react-typed';
 import avatar from '../../../src/assets/avatar.jpeg';
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
+import { BiWorld } from 'react-icons/bi';
 
 const Navbar = () => {
 
     const [active, setActive] = useState('#');
-    
+
 
     const handleHire = () => {
         window.location.href = '#contact';
     }
+
+    const getCurrentYear = () => {
+        return new Date().getFullYear();
+    };
+    const currentYear = getCurrentYear();
 
     return (
         <nav>
@@ -86,6 +93,17 @@ const Navbar = () => {
                         </div>
                         <p className="text-white mt-4">Complete Web Development Course</p>
                         <p className="text-white font-light text-sm pb-3">Programming Hero</p>
+                        <div className="mb-8">
+                            <div className="flex gap-4 p-link justify-center">
+                                <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://github.com/selim121" target='blank'><AiFillGithub /></a>
+                                <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://www.linkedin.com/in/selimhossain-sh1/#" target='blank'><AiFillLinkedin /></a>
+                                <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://twitter.com/selim_hossain1" target='blank'><AiFillTwitterSquare /></a>
+                                <a className='border hover:border-[#54FFBB] p-3 rounded-full' href="https://selim802.blogspot.com/" target='blank'><BiWorld /></a>
+                            </div>
+                            <div>
+                                <p className="text-gray-400 text-sm pt-5 d-none lg:block"><span>&copy; {currentYear} Selim. All Right Reserved</span></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
